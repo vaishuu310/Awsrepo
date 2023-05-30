@@ -1,0 +1,81 @@
+1. launch
+2.connect 
+next,connect to the instance,you can connect to the instance in serval ways.your progrsmd snd applications have multiple different methods to connect directly to the instance and exchange data. 
+users can also connect to the instance by logging in and accessing the commputer desktop.
+3.
+4.
+
+CDN--content delivary network
+
+SIMPLE NOTIFICATION SERVICE (SNS) --
+
+
+SIMPLE QUEUE SERVICE (SQS) -- Is used to connect one service to another.
+
+
+elastic conturnisation  service (ECS)--
+
+elastic qubernate service (EQS)
+
+* VPC-- virtual private cloud -- is the space ,it is private network and it contain internal gateway(IG) 
+we use to establish boundaries around your AWS resources is amazon virtual private cloud (Amazon VPC).
+
+* Inbound and outbound networks pass through IG only.
+*subnet means network inside network. is a section of VPC in which you can group resources based on security or operational needs.
+subnet can be public or private.
+* EC2 instances and ELBs inside of your VPC, amazon VPC anables you to provision an isolated section of the AWS cloud.
+* AWS direct connect is a service that enables you to establish a dedicated private connection between your data center and a VPC.
+
+*networks are three types--
+1. private network (0-1% secure)
+2.VPN(virtual private Network)-50% secure
+3.AWS direct network -100% secure
+
+*ACL--aceess control link
+A network access control list is a virtual firewall that controls inbound and outbound trafic at the subnet level. stateless packet filtering-network ACLs perform stateless packet filtering,they remeber nothing and check packets that cross the subnet border each way: inbound and outbound.
+
+25/05/23
+
+AWS -> amazon web service(cloud computing)
+Types of AWS-
+1. Infrastructure as a service.
+2. 
+ 
+* AWS take care about  software(service software),storage,security,network,haedware/software,regions,az,datacenter,databse
+--> AWS take care about cloud security.
+* User take care about customer data,client and server side datat encryption,platform,IAM,application,OS,firewall.
+* Policy is a rule of AWS 
+--> User take care about application.
+* IAM--> Identity access management
+  MFA--> Multifactor authentication
+
+30/5/23
+* Issues- Multiple people cant use same project at a time to solve it we use VCT.
+* VCT --> version controll tools 
+* Version control- this is the practice which helps us to manage the changes in the project and source code,this process is called as version controll tools.
+Ex- Git, Bit Bucket,AWS code commit,Git lab etc..,
+
+* GIT -->It is open source remote repository tool.
+- Remote Repository - In github.com we will create a remote repository
+- Local repository - It will pull to remote repository.
+To get a data from remote repository to local repository wee use clone.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
