@@ -59,6 +59,26 @@ Ex- Git, Bit Bucket,AWS code commit,Git lab etc..,
 - Remote Repository - In github.com we will create a remote repository
 - Local repository - It will pull to remote repository.
 To get a data from remote repository to local repository wee use clone.
+* Steps -->
+Git Connection with SSh
+//==from 1 to 4 optional==//
+1.Go to settings.
+2.Under access please select ssh and gpg.
+3.Please click on generate ssh key.
+4.Select 5th option generating new ssh key and adding it to ssh-agent.
+5.Open git bash.
+
+	$ ssh-keygen -t ed25519 -C "your_email@example.com"
+	paste about command by replacing your email.
+
+   ex:- $ ssh-keygen -t ed25519 -C "darshanaws0208@gmail.com"
+
+  please press enter till you get the key.(if u r generating key for first time please tell yes/y )
+	Open the file location mentioned where key present and open .pub file in notepad and copy the
+	key.
+
+6.Open github settings and go to ssh and gpg.select new ssh key.
+7.Give title and paste the key.
 
 
 
